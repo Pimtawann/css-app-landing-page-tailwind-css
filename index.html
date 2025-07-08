@@ -7,7 +7,41 @@
     <title>Acme App</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body>
-    <!-- Start Coding Here -->
-  </body>
+  <body class="bg-[#f6f6fb] min-h-screen">
+      <!-- Navbar -->
+      <nav class="w-full flex justify-center p-[24px]">
+        <div class="bg-white rounded-full shadow flex items-center pt-[12px] pr-[80px] pl-[80px] pb-[12px] w-[96%]">
+          <span class="font-bold text-[24px] text-[#1a1a2c] flex items-center relative">Acme
+            <span class="absolute -top-1 right-[-9px] text-[#5e44ff] text-2xl">•</span>
+          </span>
+          <div class="flex-1"></div>
+          <ul class="flex space-x-9 text-[16px]">
+            <li><a href="#" class="text-[#5e44ff] underline hover:text-[#5e44ff] transition hover:underline">Home</a></li>
+            <li><a href="#" class="text-[#1a1a2c] hover:text-[#5e44ff] transition hover:underline">Features</a></li>
+            <li><a href="#" class="text-[#1a1a2c] hover:text-[#5e44ff] transition hover:underline">Pricing</a></li>
+            <li><a href="#" class="text-[#1a1a2c] hover:text-[#5e44ff] transition hover:underline">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Hero Section -->
+      <section class="flex flex-col items-center justify-center mt-24 ">
+        <!-- Badge -->
+        <span class="flex items-center bg-[#563aff]/10 text-[#5e44ff] px-[20px] py-[8px] rounded-full text-sm font-medium mb-6 gap-2">
+          <span class="text-xs">🌈</span> Acme Productivity App
+        </span>
+        <!-- Headline -->
+        <h1 class="text-[80px] font-extrabold text-[#1a1a2c] text-center mb-4">
+          Boost Your <span class="text-[#5e44ff]">Product</span>ivity
+        </h1>
+        <!-- Subtitle -->
+        <p class="text-[24px] font-medium text-[#1a1a2c] text-center mb-8">
+          Streamline your workflow with our all-in-one productivity app.
+        </p>
+        <!-- CTA Button -->
+        <button class="bg-[#1a1a2c] text-white px-[38px] py-[16px] rounded-2xl shadow hover:bg-[#5f5f76] transition">
+          Start Free Trial
+        </button>
+      </section>
+    </body>
 </html>
